@@ -13,5 +13,9 @@ dependencyResolutionManagement {
     }
 }
 
+<<<<<<< HEAD
 rootProject.name = "mycafeapp"
+=======
+rootProject.name = "Layouts"
+>>>>>>> f75fbc2 (adding files of the Layouts practice)
 include(":app")

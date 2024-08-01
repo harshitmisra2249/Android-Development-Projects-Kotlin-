@@ -1,6 +1,10 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
+<<<<<<< HEAD
     <style name="Base.Theme.Mycafeapp" parent="Theme.Material3.DayNight.NoActionBar">
+=======
+    <style name="Base.Theme.Layouts" parent="Theme.Material3.DayNight.NoActionBar">
+>>>>>>> f75fbc2 (adding files of the Layouts practice)
         <!-- Customize your dark theme here. -->
         <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
     </style>

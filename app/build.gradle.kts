@@ -1,6 +1,7 @@
 plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
+<<<<<<< HEAD
     id("kotlin-android-extensions")
     id("kotlin-parcelize")
 }
@@ -11,6 +12,16 @@ android {
 
     defaultConfig {
         applicationId = "com.example.mycafeapp"
+=======
+}
+
+android {
+    namespace = "com.example.layouts"
+    compileSdk = 34
+
+    defaultConfig {
+        applicationId = "com.example.layouts"
+>>>>>>> f75fbc2 (adding files of the Layouts practice)
         minSdk = 24
         targetSdk = 34
         versionCode = 1
@@ -39,9 +50,15 @@ android {
 
 dependencies {
 
+<<<<<<< HEAD
     implementation("androidx.core:core-ktx:1.12.0")
     implementation("androidx.appcompat:appcompat:1.6.1")
     implementation("com.google.android.material:material:1.11.0")
+=======
+    implementation("androidx.core:core-ktx:1.10.1")
+    implementation("androidx.appcompat:appcompat:1.6.1")
+    implementation("com.google.android.material:material:1.9.0")
+>>>>>>> f75fbc2 (adding files of the Layouts practice)
     implementation("androidx.constraintlayout:constraintlayout:2.1.4")
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.1.5")

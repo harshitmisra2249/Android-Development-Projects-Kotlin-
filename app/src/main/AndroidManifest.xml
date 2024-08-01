@@ -10,12 +10,18 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
+<<<<<<< HEAD
         android:theme="@style/Theme.Mycafeapp"
         tools:targetApi="31">
         <activity
             android:name=".Orders"
             android:exported="false" />
         <activity
+=======
+        android:theme="@style/Theme.Layouts"
+        tools:targetApi="31">
+        <activity
+>>>>>>> f75fbc2 (adding files of the Layouts practice)
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

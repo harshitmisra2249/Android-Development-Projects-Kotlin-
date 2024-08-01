@@ -1,3 +1,7 @@
 <resources>
+<<<<<<< HEAD
     <string name="app_name">mycafeapp</string>
+=======
+    <string name="app_name">Layouts</string>
+>>>>>>> f75fbc2 (adding files of the Layouts practice)
 </resources>
